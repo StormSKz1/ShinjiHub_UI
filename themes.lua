@@ -1,12 +1,12 @@
 local httpService = game:GetService('HttpService')
-if not isfolder("Table Hub")then
-	makefolder("Table Hub");
+if not isfolder("Shijin Hub")then
+	makefolder("Shijin Hub");
 end;
-if not isfolder("Table Hub/themes")then
-	makefolder("Table Hub/themes");
+if not isfolder("Shijin Hub/themes")then
+	makefolder("Shijin Hub/themes");
 end;
 local ThemeManager = {} do
-	ThemeManager.Folder = 'Table Hub/themes'
+	ThemeManager.Folder = 'Shijin Hub/themes'
 	-- if not isfolder(ThemeManager.Folder) then makefolder(ThemeManager.Folder) end
 
 	ThemeManager.Library = nil
